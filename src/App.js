@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import Blogs from './components/blogs/Blogs.jsx';
+import Bookmarks from './components/Bookmarks/Bookmarks.jsx';
+import Header from './components/header/Header';
+
 
 function App() {
+  const [bookmarks,setBookmarks] = useState([])
+  const [readingTime,setReadingTime] = useState(0)
+
+  const handleAddToBookmark = blog =>{
+    const newBookmarks = [...bookmarks,blog]
+    setBookmarks(newBookmarks)
+  }
+
+  const handleMarkAsRead = (id, time) =>{
+    const newReadingTime = readingTime 
+    + time;
+    setReadingTime(newReadingTime)
+    // remove the read blog from bookmark
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmarks(remainingBookmarks)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header></Header>
+      <div className='md:flex max-w-7xl mx-auto'>
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+      </div>
+    </>
   );
 }
 

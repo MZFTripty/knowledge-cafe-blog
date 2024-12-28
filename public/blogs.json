@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.ibb.co.com/bPLtJY2/inspired-upbeat-dreamy-fascinated-redhead-girl-writing-down-interesting-lecture-smiling-gazi.jpg",
+      "title": "The Enigma of Time",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co.com/5961Q43/istockphoto-1317804578-1024x1024.jpg",
+      "posted_date": "2024-12-20",
+      "reading_time": 8,
+      "hashtags": ["#time", "#mystery", "#adventure"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.ibb.co.com/5949Bq1/istockphoto-967305182-1024x1024.jpg",
+      "title": "Whispers in the Wind",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co.com/ys4TPvM/istockphoto-1388253782-1024x1024.jpg",
+      "posted_date": "2024-12-18",
+      "reading_time": 12,
+      "hashtags": ["#romance", "#nature", "#poetry"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.ibb.co.com/DWzmYBy/istockphoto-1305785199-1024x1024.jpg",
+      "title": "Beyond the Horizon",
+      "author": "Emily Carter",
+      "author_img": "https://i.ibb.co.com/6XN0hZ5/istockphoto-1437816897-1024x1024.jpg",
+      "posted_date": "2024-12-15",
+      "reading_time": 10,
+      "hashtags": ["#sciencefiction", "#space", "#exploration"]
+    },
+    {
+      "id": "4",
+      "cover": "https://i.ibb.co.com/L87LtSy/istockphoto-1271865047-1024x1024.jpg",
+      "title": "The Silent Observer",
+      "author": "Michael Lee",
+      "author_img": "https://i.ibb.co.com/0F9vz1b/japanese-programmer-guy.jpg",
+      "posted_date": "2024-12-10",
+      "reading_time": 5,
+      "hashtags": ["#thriller", "#mystery", "#detective"]
+    },
+    {
+      "id": "5",
+      "cover": "https://i.ibb.co.com/wN8dzGg/istockphoto-1270358393-1024x1024.jpg",
+      "title": "Threads of Fate",
+      "author": "Sophia Martinez",
+      "author_img": "https://i.ibb.co.com/bQvMDs1/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-wi.jpg",
+      "posted_date": "2024-12-05",
+      "reading_time": 15,
+      "hashtags": ["#fantasy", "#destiny", "#magic"]
+    }
+  ]
+  
